@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+foresight/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+
+# Raw datasets
+data/raw/
+*.xlsx
+*.xls
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated/intermediate datasets
+data/raw/
+data/interim/
+data/processed/*.pkl
+data/processed/*.csv
